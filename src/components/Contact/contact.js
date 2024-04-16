@@ -63,10 +63,13 @@ const Contact = () => {
             Submit
           </button>
           <div className="links">
-            <img src={FacebookIcon} alt="Facebook" className="link" />
-            <img src={InstagramIcon} alt="Instagram" className="link" />
-            <img src={LinkedinIcon} alt="Linkedin" className="link" />
-            <img src={TwitterIcon} alt="Twitter" className="link" />
+            <a href="https://www.facebook.com/lokesh.bogi/" target="_blank"><img src={FacebookIcon} alt="Facebook" className="link" /></a>
+            <a href="https://www.instagram.com/lokesh_bogi/" target="_blank"><img src={InstagramIcon} alt="Instagram" className="link" /></a>
+            <a href="https://www.linkedin.com/in/lokesh-bogi-396ba2245/" target="_blank"><img src={LinkedinIcon} alt="Linkedin" className="link" /></a>
+            <a href="https://twitter.com/lokesh_bogi" target="_blank"><img src={TwitterIcon} alt="Twitter" className="link" /></a>
+            
+            
+            
           </div>
         </form>
       </div>

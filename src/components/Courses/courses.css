@@ -1,0 +1,56 @@
+#courses{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.couTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.couBars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+.couBar{
+    background: rgb(50,50,50);
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.3rem;
+}
+.btn{
+    background: white;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius:2rem ;
+}
+.couBarImg{
+    object-fit: cover;
+    height: 2rem;
+    width: 4rem;
+    margin-right: 2rem;
+    transition: 1s;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,-1);
+}
+.couBarImg:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+.couBarText>p{
+    font-size: 0.9rem;
+    font-weight: 200;
+}

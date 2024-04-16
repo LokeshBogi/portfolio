@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <section id="skills">
       <span className="skillTitle">My Skills</span>
-      <span className="skillDesc">I am skilled in</span>
+      <span className="skillDesc">I have Experience in</span>
       <div className="skillBars">
         <div className="skillBar">
           <div className="skillWrap">
